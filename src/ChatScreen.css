@@ -1,0 +1,50 @@
+.chatScreen__text{
+    margin-left: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 20px;
+}
+.chatScreen__textUser{
+    margin-left: auto;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+.chatScreen__message{
+    display:flex ;
+    align-items: center;
+    padding: 20px;
+}
+.chatScreen__timestamp{
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+.chatScreen__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+    position: fixed;
+    bottom: 5vh;
+    width: 100%;
+}
+.chatScreen__footer form{
+    flex: 1;
+    display: flex;
+}
+.chatScreen__footer form input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+.chatScreen__footer form button{
+    display: none;
+}
+.chatScreen__footer .MuiSvgIcon-root{
+    padding:10px;
+    color: gray;
+}
